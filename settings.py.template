@@ -1,0 +1,9 @@
+class Config(object):
+    SECRET_KEY = 's3cr3t'
+    TODOIST_API_CLIENTID = 'ENTER_YOUR_CLIENT_ID_HERE'
+    TODOIST_API_SECRET = 'ENTER_YOUR_CLIENT_SECRET_HERE'
+    TODOIST_API_AUTHURL = 'https://todoist.com/oauth/authorize'
+    TODOIST_API_CACHEDIR = './todoist-cache'
+    DEFAULT_DUE_TIME = '07:30:00'
+    TOKENFILE = 'todoist.token'
+    RESET_TODOIST_API_BEFORE_SYNC = False
